@@ -79,19 +79,18 @@ nav ul li::after {
 	height: 3px;
 	width: 100%;
 	background: #ffc107;
-	transition: transform 0.5s;
+	transition: transform 0.3s;
 }
 
 nav ul li:hover::after {
 	transform: scaleX(1);
-	transition: transform 0.5s;
+	transition: transform 0.3s;
 }
 
 .header {
 	height: 100vh;
 	width: 100vw;
-	background: #3f3f3f url(../img/hero.png) no-repeat center;
-	background-size: cover;
+	background: #3f3f3f url(../img/hero.png) no-repeat center / cover;
 }
 
 /* Section */
@@ -103,8 +102,7 @@ nav ul li:hover::after {
 }
 
 .section-2 {
-	background: #3f3f3f url(../img/section-2.jpg) no-repeat center;
-	background-size: cover;
+	background: #3f3f3f url(../img/section-2.jpg) no-repeat center / cover;
 }
 
 .section-2-icon {
@@ -112,18 +110,15 @@ nav ul li:hover::after {
 }
 
 .section-3-img-1 {
-	background: #3f3f3f url(../img/section-3.1.jpg) no-repeat center;
-	background-size: cover;
+	background: #3f3f3f url(../img/section-3.1.jpg) no-repeat center / cover;
 }
 
 .section-3-img-2 {
-	background: #3f3f3f url(../img/section-3.2.jpg) no-repeat center;
-	background-size: cover;
+	background: #3f3f3f url(../img/section-3.2.jpg) no-repeat center / cover;
 }
 
 .section-4 {
-	background: #3f3f3f url(../img/section-4.jpg) no-repeat center;
-	background-size: cover;
+	background: #3f3f3f url(../img/section-4.jpg) no-repeat center / cover;
 }
 
 .overlay {
@@ -133,7 +128,7 @@ nav ul li:hover::after {
 	overflow: hidden;
 	height: 0;
 	width: 100%;
-	transition: 0.5s ease;
+	transition: 0.3s ease;
 }
 
 .img-container:hover .overlay {
@@ -156,8 +151,7 @@ nav ul li:hover::after {
 }
 
 .footer-left {
-	background: #3f3f3f url(../img/footer-img.jpg) no-repeat center;
-	background-size: cover;
+	background: #3f3f3f url(../img/footer-img.jpg) no-repeat center / cover;
 }
 
 .footer-bottom {
