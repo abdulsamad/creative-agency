@@ -12,10 +12,9 @@ function loading() {
 function scrolling() {
 	var scrollTopSize = window.pageYOffset || document.documentElement.scrollTop;
 	var nav = document.getElementById('nav');
-	if (scrollTopSize > 0) {
-		nav.style.backgroundColor = '#000';
-	}
-	if (scrollTopSize <= 0) {
-		nav.style.backgroundColor = 'transparent';
+	if (scrollTopSize !== 0) {
+		nav.classList.add('navbar-active');
+	} else {
+		nav.classList.remove('navbar-active');
 	}
 }
