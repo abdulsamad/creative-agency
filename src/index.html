@@ -6,20 +6,20 @@
 	<meta http-equiv="X-UA-Compatible" IE="Edge">
 	<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
 	<title>Creative Agency</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="scss/style.scss">
+	<script defer src="js/script.js"></script>
 </head>
 
 <body>
-	<div id="loader"></div>
-	<div id="main">
+	<div class="loader" id="loader" aria-hidden="true"></div>
+	<div class="d-none" id="main">
 		<nav id="nav" class="navbar navbar-dark navbar-expand-sm nav-bar fixed-top">
 			<div class="container">
 				<div class="navbar-brand d-flex">
 					<h1>
-						<i class="fa fa-quote-right text-amber" aria-hidden="true"></i> Agency
+						<i class="fa fa-quote-right text-primary" aria-hidden="true"></i> Agency
 					</h1>
 				</div>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -78,12 +78,12 @@
 					<div class="px-3">
 						<h1 class="font-weight-bold">Creative idea
 							<br> for
-							<span class="text-amber">Professionals</span>
+							<span class="text-primary">Professionals</span>
 						</h1>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod tempora fugiat hic eligendi sapiente alias
 							iusto, dolore
 							atque soluta ut. Lorem ipsum dolor sit amet.</p>
-						<button class="my-2 btn btn-amber">Read More</button>
+						<button class="my-2 btn btn-primary rounded-pill">Read More</button>
 					</div>
 				</div>
 			</div>
@@ -93,7 +93,7 @@
 				<div class="col-md-1"></div>
 				<div class="col-md-4">
 					<h1 class="font-weight-bold">Welcome</h1>
-					<h2 class="font-weight-bold text-amber">for Professionals</h2>
+					<h2 class="font-weight-bold text-primary">for Professionals</h2>
 					<div class="py-3 px-1 text-secondary">
 						<div>
 							<i class="fa fa-quote-left" aria-hidden="true"></i>
@@ -111,7 +111,7 @@
 						</p>
 					</div>
 					<div>
-						<button class="btn btn-amber my-3">Read More</button>
+						<button class="btn btn-primary rounded-pill my-3">Read More</button>
 					</div>
 				</div>
 				<div class="col-md-1"></div>
@@ -125,7 +125,7 @@
 				<div class="col-md-1"></div>
 				<div class="col-md-4 text-center text-lg-left">
 					<h1 class="font-weight-bold">Our Company</h1>
-					<h2 class="font-weight-bold text-amber">great Services.</h2>
+					<h2 class="font-weight-bold text-primary">great Services.</h2>
 					<div class="py-3">
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem harum quod reiciendis fugit voluptas at
 						assumenda reprehenderit
@@ -136,10 +136,10 @@
 				<div class="col-md-6">
 					<div class="row">
 						<div class="col-sm-2 py-4 text-center">
-							<i class="fa fa-flag-o text-amber section-2-icon"></i>
+							<i class="fa fa-flag-o text-primary section-2-icon"></i>
 						</div>
 						<div class="col-sm-7 text-center text-lg-left">
-							<h6 class="text-amber h5 text-uppercase font-weight-bold">Creative Work</h6>
+							<h6 class="text-primary h5 text-uppercase font-weight-bold">Creative Work</h6>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis explicabo mollitia commodi nihil
 								fuga, animi?
 								Lorem ipsum dolor sit amet.</p>
@@ -147,10 +147,10 @@
 					</div>
 					<div class="row">
 						<div class="col-sm-2 py-4 text-center">
-							<i class="fa fa-desktop text-amber section-2-icon"></i>
+							<i class="fa fa-desktop text-primary section-2-icon"></i>
 						</div>
 						<div class="col-sm-7 text-center text-lg-left">
-							<h6 class="text-amber h5 text-uppercase font-weight-bold">Creative Work</h6>
+							<h6 class="text-primary h5 text-uppercase font-weight-bold">Creative Work</h6>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis explicabo mollitia commodi nihil
 								fuga, animi?
 								Lorem ipsum dolor sit amet.</p>
@@ -158,10 +158,10 @@
 					</div>
 					<div class="row">
 						<div class="col-sm-2 py-4 text-center">
-							<i class="fa fa-line-chart text-amber section-2-icon"></i>
+							<i class="fa fa-line-chart text-primary section-2-icon"></i>
 						</div>
 						<div class="col-sm-7 text-center text-lg-left">
-							<h6 class="text-amber h5 text-uppercase font-weight-bold">Creative Work</h6>
+							<h6 class="text-primary h5 text-uppercase font-weight-bold">Creative Work</h6>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis explicabo mollitia commodi nihil
 								fuga, animi?
 								Lorem ipsum dolor sit amet.</p>
@@ -169,10 +169,10 @@
 					</div>
 					<div class="row">
 						<div class="col-sm-2 py-4 text-center">
-							<i class="fa fa-user-o text-amber section-2-icon"></i>
+							<i class="fa fa-user-o text-primary section-2-icon"></i>
 						</div>
 						<div class="col-sm-7 text-center text-lg-left">
-							<h6 class="text-amber h5 text-uppercase font-weight-bold">Creative Work</h6>
+							<h6 class="text-primary h5 text-uppercase font-weight-bold">Creative Work</h6>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis explicabo mollitia commodi nihil
 								fuga, animi?
 								Lorem ipsum dolor sit amet.</p>
@@ -186,47 +186,47 @@
 				<div class="col-md-1"></div>
 				<div class="col-md-2 section-3-img-1 d-flex align-items-end border py-2">
 					<div class="text-center">
-						<i class="fa fa-flag-o text-amber section-2-icon"></i>
-						<h4 class="text-uppercase text-amber font-weight-bold mt-2 mb-4">Creative</h4>
+						<i class="fa fa-flag-o text-primary section-2-icon"></i>
+						<h4 class="text-uppercase text-primary font-weight-bold mt-2 mb-4">Creative</h4>
 						<p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore libero dolor
 							necessitatibus!</p>
-						<button class="btn btn-amber my-2">Read More</button>
+						<button class="btn btn-primary rounded-pill my-2">Read More</button>
 					</div>
 				</div>
 				<div class="col-md-2 section-3-img-2 d-flex align-items-end border ml-1 py-2">
 					<div class="text-center">
-						<i class="fa fa-user-o text-amber section-2-icon"></i>
-						<h4 class="text-uppercase text-amber font-weight-bold mt-2 mb-4">Creative</h4>
+						<i class="fa fa-user-o text-primary section-2-icon"></i>
+						<h4 class="text-uppercase text-primary font-weight-bold mt-2 mb-4">Creative</h4>
 						<p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore libero dolor
 							necessitatibus!</p>
-						<button class="btn btn-amber my-2">Read More</button>
+						<button class="btn btn-primary rounded-pill my-2">Read More</button>
 					</div>
 				</div>
 				<div class="col-md-1"></div>
 				<div class="col-md-4">
 					<h1 class="font-weight-bold">Welcome</h1>
-					<h2 class="text-amber font-weight-bold">for Professionals</h2>
+					<h2 class="text-primary font-weight-bold">for Professionals</h2>
 					<p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil pariatur maxime minus commodi
 						neque necessitatibus eligendi
 						ad magnam quas repellat tempore maiores harum, expedita soluta odit impedit officia. Illum, veniam!</p>
 					<h5 class="font-weight-bold mt-3">
-						<i class="fa fa-check-circle-o mx-3 text-amber"></i>
+						<i class="fa fa-check-circle-o mx-3 text-primary"></i>
 						Lorem ipsum dolor sit amet.
 					</h5>
 					<h5 class="font-weight-bold mt-3">
-						<i class="fa fa-check-circle-o mx-3 text-amber"></i>
+						<i class="fa fa-check-circle-o mx-3 text-primary"></i>
 						Lorem ipsum dolor sit.
 					</h5>
 					<h5 class="font-weight-bold mt-3">
-						<i class="fa fa-check-circle-o mx-3 text-amber"></i>
+						<i class="fa fa-check-circle-o mx-3 text-primary"></i>
 						Lorem ipsum dolor sit amet.
 					</h5>
 					<h5 class="font-weight-bold mt-3">
-						<i class="fa fa-check-circle-o mx-3 text-amber"></i>
+						<i class="fa fa-check-circle-o mx-3 text-primary"></i>
 						Lorem ipsum dolor sit amet.
 					</h5>
 					<h5 class="font-weight-bold mt-3">
-						<i class="fa fa-check-circle-o mx-3 text-amber"></i>
+						<i class="fa fa-check-circle-o mx-3 text-primary"></i>
 						Lorem ipsum dolor sit amet.
 					</h5>
 				</div>
@@ -236,7 +236,7 @@
 				<div class="col-md-1"></div>
 				<div class="col-md-10">
 					<h2 class="text-center text-uppercase font-weight-bold">Business
-						<span class="text-amber">Team</span>
+						<span class="text-primary">Team</span>
 					</h2>
 					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, doloribus dolorum? Reiciendis minima
 						molestias accusantium,
@@ -273,7 +273,7 @@
 				</div>
 				<div class="col-md-2">
 					<h1 class="font-weight-bold">We have</h1>
-					<h2 class="font-weight-bold text-amber">Served</h2>
+					<h2 class="font-weight-bold text-primary">Served</h2>
 				</div>
 			</div>
 			<div class="row">
@@ -306,7 +306,7 @@
 				<div class="col-md-8">
 					<h2 class="text-center font-weight-bold">
 						<span class="font-weight-bold h1">Case </span>
-						<span class="text-amber">studies</span>
+						<span class="text-primary">studies</span>
 					</h2>
 					<p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nam, qui vero cumque maxime
 						repellat tenetur officiis
@@ -315,34 +315,34 @@
 				<div class="col-md-2"></div>
 			</div>
 			<div class="row my-5 text-light">
-				<div class="col-md-4 p-0 img-container position-relative mt-3 border-bottom-amber">
+				<div class="col-md-4 p-0 img-container position-relative mt-3 border-bottom-primary">
 					<img src="img/section-6.1.jpg" alt="section-6" class="img-fluid">
 					<div
 						class="overlay d-flex align-items-center justify-content-center text-center flex-column position-absolute">
-						<h6 class="font-weight-bold text-uppercase text-amber">Lorem, ipsum dolor.</h6>
+						<h6 class="font-weight-bold text-uppercase text-primary">Lorem, ipsum dolor.</h6>
 						<p class="px-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, accusantium quidem? Dicta,
 							minus! Quisquam, quis?</p>
-						<button class="btn btn-amber mt-3">Read More</button>
+						<button class="btn btn-primary rounded-pill mt-3">Read More</button>
 					</div>
 				</div>
-				<div class="col-md-4 p-0 img-container position-relative mt-3 border-bottom-amber">
+				<div class="col-md-4 p-0 img-container position-relative mt-3 border-bottom-primary">
 					<img src="img/section-6.2.jpg" alt="section-6" class="img-fluid">
 					<div
 						class="overlay d-flex align-items-center justify-content-center text-center flex-column position-absolute">
-						<h6 class="font-weight-bold text-uppercase text-amber">Lorem, ipsum dolor.</h6>
+						<h6 class="font-weight-bold text-uppercase text-primary">Lorem, ipsum dolor.</h6>
 						<p class="px-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, accusantium quidem? Dicta,
 							minus! Quisquam, quis?</p>
-						<button class="btn btn-amber mt-3">Read More</button>
+						<button class="btn btn-primary rounded-pill mt-3">Read More</button>
 					</div>
 				</div>
-				<div class="col-md-4 p-0 img-container position-relative mt-3 border-bottom-amber">
+				<div class="col-md-4 p-0 img-container position-relative mt-3 border-bottom-primary">
 					<img src="img/section-6.3.jpg" alt="section-6" class="img-fluid">
 					<div
 						class="overlay d-flex align-items-center justify-content-center text-center flex-column position-absolute">
-						<h6 class="font-weight-bold text-uppercase text-amber">Lorem, ipsum dolor.</h6>
+						<h6 class="font-weight-bold text-uppercase text-primary">Lorem, ipsum dolor.</h6>
 						<p class="px-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, accusantium quidem? Dicta,
 							minus! Quisquam, quis?</p>
-						<button class="btn btn-amber mt-3">Read More</button>
+						<button class="btn btn-primary rounded-pill mt-3">Read More</button>
 					</div>
 				</div>
 			</div>
@@ -353,7 +353,7 @@
 				<div class="col-md-3">
 					<h1 class="font-weight-bold">Client
 						<br>
-						<span class="h2  font-weight-bold text-amber">testimonials</span>
+						<span class="h2  font-weight-bold text-primary">testimonials</span>
 					</h1>
 				</div>
 				<div class="col-md-3">
@@ -401,14 +401,14 @@
 				<div
 					class="col-md-6 d-flex flex-column align-items-center justify-content-center text-center footer-left text-light py-5">
 					<h1 class="font-weight-bold">Get</h1>
-					<h2 class="text-amber">in Touch</h2>
+					<h2 class="text-primary">in Touch</h2>
 					<div class="w-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit magni consequatur
 						veniam iure</div>
 				</div>
 				<div class="col-md-6">
 					<div class="p-5">
 						<h1 class="font-weight-bold mb-3">
-							<i class="fa fa-quote-right text-amber" aria-hidden="true"></i> Agency
+							<i class="fa fa-quote-right text-primary" aria-hidden="true"></i> Agency
 						</h1>
 						<div class="w-75 mb-5">
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ad vitae qui praesentium, voluptates
@@ -418,7 +418,7 @@
 						<div>
 							<div class="row my-4">
 								<div class="col-md-2 mx-5 text-center footerIcon">
-									<i class="fa fa-envelope-o text-amber"></i>
+									<i class="fa fa-envelope-o text-primary"></i>
 								</div>
 								<div class="col-md-6 footerContact text-center">
 									<h4 class="font-weight-bold mb-2 text-uppercase">Email:</h4>
@@ -428,7 +428,7 @@
 							</div>
 							<div class="row my-4">
 								<div class="col-md-2 mx-5 text-center footerIcon">
-									<i class="fa fa-mobile-phone text-amber"></i>
+									<i class="fa fa-mobile-phone text-primary"></i>
 								</div>
 								<div class="col-md-6 footerContact text-center">
 									<h4 class="font-weight-bold mb-2 text-uppercase">Call us:</h4>
@@ -438,7 +438,7 @@
 							</div>
 							<div class="row my-4">
 								<div class="col-md-2 mx-5 text-center footerIcon">
-									<i class="fa fa-map-o text-amber"></i>
+									<i class="fa fa-map-o text-primary"></i>
 								</div>
 								<div class="col-md-6 footerContact text-center">
 									<h4 class="font-weight-bold mb-2 text-uppercase">Address:</h4>
@@ -455,10 +455,6 @@
 			</div>
 		</footer>
 	</div>
-	<script src="js/jquery.slim.min.js"></script>
-	<script src="js/popper.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/script.js"></script>
 </body>
 
 </html>

@@ -1,12 +1,12 @@
-'use strict';
 window.addEventListener('load', loading, false);
 window.addEventListener('scroll', scrolling, false);
 
 function loading() {
-	var main = document.getElementById('main');
-	var loader = document.getElementById('loader');
-	main.style.display = 'block';
-	loader.style.display = 'none';
+	const main = document.getElementById('main');
+	const loader = document.getElementById('loader');
+
+	main.classList.remove('d-none');
+	loader.classList.add('d-none');
 }
 
 function scrolling() {

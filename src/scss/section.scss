@@ -1,0 +1,44 @@
+.section {
+	min-height: 550px;
+	max-width: 100%;
+	padding: 7rem 10px;
+}
+
+.section-2 {
+	background: #3f3f3f url(../img/section-2.jpg) no-repeat center / cover;
+}
+
+.section-2-icon {
+	font-size: 3rem;
+}
+
+.section-3-img-1 {
+	background: #3f3f3f url(../img/section-3.1.jpg) no-repeat center / cover;
+}
+
+.section-3-img-2 {
+	background: #3f3f3f url(../img/section-3.2.jpg) no-repeat center / cover;
+}
+
+.section-4 {
+	background: #3f3f3f url(../img/section-4.jpg) no-repeat center / cover;
+}
+
+.overlay {
+	top: 100%;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.75);
+	overflow: hidden;
+	height: 0;
+	width: 100%;
+	transition: 0.3s ease;
+}
+
+.img-container:hover .overlay {
+	height: 100%;
+	top: 0;
+}
+
+.section-7-quote {
+	font-size: 1.5rem;
+}

@@ -1,0 +1,10 @@
+@use '~bootstrap/scss/bootstrap' with (
+	$primary: red,
+	// $primary: #ffc107,
+);
+
+@use 'global';
+@use 'loader';
+@use 'header';
+@use 'section';
+@use 'footer';
