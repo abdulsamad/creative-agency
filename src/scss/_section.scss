@@ -1,7 +1,7 @@
 .section {
 	min-height: 550px;
 	max-width: 100%;
-	padding: 7rem 10px;
+	padding: 5rem 0;
 }
 
 .section-2 {
@@ -22,6 +22,26 @@
 
 .section-4 {
 	background: #3f3f3f url(../img/section-4.jpg) no-repeat center / cover;
+
+	.img-container {
+		height: 100%;
+		overflow: hidden;
+	}
+
+	img {
+		filter: grayscale(1);
+		transition: 0.3s ease;
+	}
+
+	.img-container:hover img {
+		filter: grayscale(0);
+		transform: scale(1.25);
+	}
+}
+
+.section-6,
+.section-5 {
+	padding-bottom: 0;
 }
 
 .overlay {
