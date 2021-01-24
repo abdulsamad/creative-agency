@@ -26,8 +26,40 @@ nav ul li:hover::after {
 	transition: transform 0.3s;
 }
 
-.header {
+.hero-carousel {
 	height: 100vh;
 	width: 100vw;
-	background: #3f3f3f url(../img/hero.png) no-repeat center / cover;
+	overflow: hidden;
+
+	img {
+		animation: carousel-zoom-pan 10s linear both;
+	}
+
+	.carousel-inner,
+	.carousel-item {
+		height: 100vh;
+	}
+
+	.carousel-caption {
+		top: 25%;
+		left: 0;
+		right: 0;
+	}
+
+	.carousel-control-prev,
+	.carousel-control-next {
+		top: auto;
+		bottom: 10%;
+	}
+}
+
+@keyframes carousel-zoom-pan {
+	from {
+		transform: scale(1, 1);
+		background-position: top;
+	}
+	to {
+		transform: scale(1.1, 1.05);
+		background-position: bottom;
+	}
 }
