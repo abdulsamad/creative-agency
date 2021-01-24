@@ -1,3 +1,6 @@
+import 'jquery/dist/jquery.slim';
+import 'bootstrap/dist/js/bootstrap.bundle';
+
 window.addEventListener('load', loading, false);
 window.addEventListener('scroll', scrolling, false);
 
