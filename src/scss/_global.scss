@@ -1,14 +1,18 @@
 @use '~bootstrap/scss/bootstrap';
 
 body {
-	font-family: 'Open Sans', Roboto;
-	overflow-x: hidden;
+  font-family: 'Open Sans', Roboto;
+  overflow-x: hidden;
+}
+
+.main {
+  overflow: hidden;
 }
 
 .btn:active {
-	transform: scale(0.9);
+  transform: scale(0.9);
 }
 
 .border-bottom-primary:hover {
-	border-bottom: 5px solid bootstrap.$primary;
+  border-bottom: 5px solid bootstrap.$primary;
 }
